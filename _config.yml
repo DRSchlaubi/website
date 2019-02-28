@@ -1,11 +1,18 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
 
 permalink: /:year/:month/:day/:title/
+
+repositories: 
+  - "voteBot"
+  - "hawkbot"
+  - "regnum"
+  - "catnip"
+  - "discordrpc-client"
 
 defaults:
   -
@@ -16,12 +23,13 @@ defaults:
       layout: "post"
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Kotlin
+    web_url: https://github.com/topics/kotlin
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/kotlin/kotlin.png
 
-  - name: Web design
+  - name: Bot
+    web_url: https://github.com/topic/bot
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Discord
+    web_url: https://github.com/topics/discord
+    image_url: https://raw.githubusercontent.com/github/explore/f2f59fce1535ce7fb7aa24bafdb05943631751a5/topics/discord/discord.png
