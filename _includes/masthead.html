@@ -37,5 +37,6 @@
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
+    <p {% if site.style == 'dark' %}class="text-white"{% endif %}><a href="../imprint_en">Imprint</a> | <a href="../privacy_en">Privacy</a></p>
   </div>
 {% endif %}
