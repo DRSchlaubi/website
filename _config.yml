@@ -56,11 +56,11 @@ projects:
 topics:
   - name: Kotlin
     web_url: https://github.com/topics/kotlin
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/kotlin/kotlin.png
+    image_url: //micheal.rittmeister.in/assets/kotlin.svg
 
   - name: Bot
     web_url: https://github.com/topic/bot
 
   - name: Discord
     web_url: https://github.com/topics/discord
-    image_url: https://raw.githubusercontent.com/github/explore/f2f59fce1535ce7fb7aa24bafdb05943631751a5/topics/discord/discord.png
+    image_url: //micheal.rittmeister.in/assets/discord.svg
