@@ -10,10 +10,12 @@ permalink: /:year/:month/:day/:title/
 
 repositories: 
   - "voteBot"
-  - "hawkbot"
-  - "regnum"
-  - "catnip"
-  - "discordrpc-client"
+  - "contact_picker"
+  - "Lavakord"
+  - "kaesk"
+  - "flutter-nfc-reader"
+  - "Intellij-GradleUpdater"
+  - "flutter_beacon"
 
 defaults:
   -
