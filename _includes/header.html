@@ -30,6 +30,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   </head>
   <body class="bg-white min-height-full" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
-  <style>
-      {% include styles.scss %}
-  </style>
+    {% capture styles %}
+    {% include styles.css %}
+    {% endcapture %}
+    
+    <style>
+    {{ styles | scssify }}
+    </style>
