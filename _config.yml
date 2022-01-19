@@ -1,21 +1,23 @@
 layout: sidebar
 style: dark
 
+url: "https://schlau.bi"
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-sitemap
   - jemoji
 
 permalink: /:year/:month/:day/:title/
 
 repositories: 
-  - "voteBot"
-  - "contact_picker"
-  - "Lavakord"
-  - "kaesk"
-  - "flutter-nfc-reader"
+  - "mikbot"
+  - "Lavalink.kt"
   - "Intellij-GradleUpdater"
-  - "flutter_beacon"
+  - "furry-okto-rotary-phone"
+  - "docker-kotlin"
+  - "envconf"
 
 defaults:
   -
@@ -26,7 +28,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -37,7 +39,7 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -48,11 +50,11 @@ projects:
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
-  # telegram: your_username
-  # twitter: your_username
+  telegram: schlaubi2
+  twitter: SchlaumeierTVDE
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: https://schlau.bi
   # youtube: your_username
 
 topics:
