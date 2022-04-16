@@ -16,7 +16,7 @@ repositories:
   - "Lavalink.kt"
   - "Intellij-GradleUpdater"
   - "furry-okto-rotary-phone"
-  - "docker-kotlin"
+  - "stdx.kt"
   - "envconf"
 
 defaults:
