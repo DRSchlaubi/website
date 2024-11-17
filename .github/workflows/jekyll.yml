@@ -6,6 +6,7 @@ on:
 
 env:
   PAGES_REPO_NWO: https://github.com/DRSchlaubi/website.git
+  JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 permissions:
   contents: read
