@@ -4,6 +4,9 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+env:
+  PAGES_REPO_NWO: https://github.com/DRSchlaubi/website.git
+
 permissions:
   contents: read
   pages: write
