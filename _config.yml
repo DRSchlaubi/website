@@ -13,11 +13,10 @@ permalink: /:year/:month/:day/:title/
 
 repositories: 
   - "mikbot"
-  - "Lavalink.kt"
-  - "Intellij-GradleUpdater"
-  - "furry-okto-rotary-phone"
-  - "stdx.kt"
-  - "envconf"
+  - "tonbrett"
+  - "openid-helper"
+  - "lyrics.kt"
+  - "telegram-oauth"
 
 defaults:
   -
